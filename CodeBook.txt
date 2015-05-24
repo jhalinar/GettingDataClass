@@ -1,0 +1,81 @@
+run_analysis creates a data frame that summarizes a subset of data 
+collected from a Samsung Galaxy S smartphone from 30 subjects doing 6 
+different activities.  The data was collected from the accelerometer 
+and the gyroscope from the X, Y and Z axis.  A full description of the 
+raw data can be obtained from 
+shttps://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+The data variables created from run_analysis are as follows where t 
+stands for temporal and f stands for frequency:
+
+subject
+activityID
+activityName
+t.MeanBodyAccelerometer.X
+t.MeanBodyAccelerometer.Y
+t.MeanBodyAccelerometer.Z
+t.MeanGravityAccelerometer.X
+t.MeanGravityAccelerometer.Y
+t.MeanGravityAccelerometer.Z
+t.MeanBodyAccelerometerJerk.X
+t.MeanBodyAccelerometerJerk.Y
+t.MeanBodyAccelerometerJerk.Z
+t.MeanBodyGyroscope.X
+t.MeanBodyGyroscope.Y
+t.MeanBodyGyroscope.Z
+t.MeanBodyGyroscopeJerk.X
+t.MeanBodyGyroscopeJerk.Y
+t.MeanBodyGyroscopeJerk.Z
+t.MeanBodyAccelerometerMag
+t.MeanGravityAccelerometerMag
+t.MeanBodyAccelerometerJerkMag
+t.MeanBodyGyroscopeMag
+t.MeanBodyGyroscopeJerkMag
+f.MeanBodyAccelerometer.X
+f.MeanBodyAccelerometer.Y
+f.MeanBodyAccelerometer.Z
+f.MeanBodyAccelerometerJerk.X
+f.MeanBodyAccelerometerJerk.Y
+f.MeanBodyAccelerometerJerk.Z
+f.MeanBodyGyroscope.X
+f.MeanBodyGyroscope.Y
+f.MeanBodyGyroscope.Z
+f.MeanBodyAccelerometerMag
+f.MeanBodyAccelerometerJerkMag
+f.MeanBodyGyroscopeMag
+f.MeanBodyGyroscopeJerkMag
+t.StdBodyAccelerometer.X
+t.StdBodyAccelerometer.Y
+t.StdBodyAccelerometer.Z
+t.StdGravityAccelerometer.X
+t.StdGravityAccelerometer.Y
+t.StdGravityAccelerometer.Z
+t.StdBodyAccelerometerJerk.X
+t.StdBodyAccelerometerJerk.Y
+t.StdBodyAccelerometerJerk.Z
+t.StdBodyGyroscope.X
+t.StdBodyGyroscope.Y
+t.StdBodyGyroscope.Z
+t.StdBodyGyroscopeJerk.X
+t.StdBodyGyroscopeJerk.Y
+t.StdBodyGyroscopeJerk.Z
+t.StdBodyAccelerometerMag
+t.StdGravityAccelerometerMag
+t.StdBodyAccelerometerJerkMag
+t.StdBodyGyroscopeMag
+t.StdBodyGyroscopeJerkMag
+f.StdBodyAccelerometer.X
+f.StdBodyAccelerometer.Y
+f.StdBodyAccelerometer.Z
+f.StdBodyAccelerometerJerk.X
+f.StdBodyAccelerometerJerk.Y
+f.StdBodyAccelerometerJerk.Z
+f.StdBodyGyroscope.X
+f.StdBodyGyroscope.Y
+f.StdBodyGyroscope.Z
+f.StdBodyAccelerometerMag
+f.StdBodyAccelerometerJerkMag
+f.StdBodyGyroscopeMag
+f.StdBodyGyroscopeJerkMag 
+
+The final data frame summarizes these values over the subject and activities.
